@@ -753,6 +753,7 @@ window.uStates = (function() {
     /* function to create html content string in tooltip div. */
     return `<div class='usamap-state'>
                     <h4 class='usamap__state-name'>${n}</h4>
+                    <p class='usamap__state-population'>(pop: ${d.population} million)</p>
                     <a>Learn More</a>
                 </div>`;
   }
