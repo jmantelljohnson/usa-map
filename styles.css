@@ -7,9 +7,12 @@
   align-items: center;
 }
 .usa-map .state {
-  fill: none;
+  fill: #E2F4F6;
   stroke: #fff;
   stroke-width: 1;
+}
+.usa-map .state:hover {
+  fill: #38b7ae;
 }
 .usa-map #statesvg {
   width: 100%;
