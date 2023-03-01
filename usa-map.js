@@ -688,9 +688,9 @@ window.uStates = (function() {
         const center = getCenter(d);
         return yScale()(center.y);
       })
-      .attr("fill", "#0070E0")
+      .attr("fill", "#4885ed")
       .attr("stroke", "white")
-      .attr("stroke-width", 4)
+      .attr("stroke-width", 3)
       .on("mouseover", mouseOver)
       .on("mouseout", mouseOut);
   };
