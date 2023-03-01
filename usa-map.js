@@ -733,7 +733,6 @@ window.uStates = (function() {
   var sizeScale = d3
     .scaleLinear()
     .domain([lowest, largest])
-    .range(["#E2F4F6", "#E2F4F6"]);
 
   var stateLength = state.length;
   for (var x = 0; x < stateLength; x++) {
