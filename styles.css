@@ -8,7 +8,7 @@
 }
 .usa-map .state {
   fill: none;
-  stroke: #a9a9a9;
+  stroke: #fff;
   stroke-width: 1;
 }
 .usa-map #statesvg {
