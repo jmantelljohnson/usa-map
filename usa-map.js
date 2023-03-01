@@ -733,7 +733,7 @@ window.uStates = (function() {
   var sizeScale = d3
     .scaleLinear()
     .domain([lowest, largest])
-    .range(["#FFF6EC", "#4B1E5D"]);
+    .range(["#E2F4F6", "#E2F4F6"]);
 
   var stateLength = state.length;
   for (var x = 0; x < stateLength; x++) {
@@ -753,9 +753,7 @@ window.uStates = (function() {
     /* function to create html content string in tooltip div. */
     return `<div class='usamap-state'>
                     <h4 class='usamap__state-name'>${n}</h4>
-                    <p class='usamap__state-request'>${d.totalReuquest} requests received</p>
-                    <p class='usamap__state-population'>(pop: ${d.population} million)</p>
-                    <p class='usamap__state-timeperiod'>${d.TimePeriod}</p>
+                    <a>Learn More</a>
                 </div>`;
   }
 
